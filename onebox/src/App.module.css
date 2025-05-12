@@ -1,0 +1,20 @@
+/* index.css or global CSS */
+* {
+  margin: 0;
+  top: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* pushes header to top, footer to bottom */
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+}
+
+
